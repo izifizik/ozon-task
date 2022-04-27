@@ -1,0 +1,13 @@
+syntax = "proto3";
+package service;
+
+option go_package = ".";
+
+message URL {
+  string body = 1;
+}
+
+service URLService {
+  rpc Create(URL) returns (URL) {}
+  rpc Get(URL) returns (URL) {}
+}

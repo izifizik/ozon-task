@@ -1,0 +1,14 @@
+#Ignoring git and cache folders
+.git
+.gitignore
+.env
+
+#Ignoring all the markdown and class files
+*.md
+
+/.idea
+/pg_data
+/client
+
+Makefile
+docker-compose.yaml
